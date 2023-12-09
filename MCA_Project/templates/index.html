@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+
+  <title>Heart</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <style>
+
+
+body{
+  background-color: #CEEDC7;
+  margin-bottom:20rem;
+
+}
+
+  </style>
+
+</head>
+
+<body >
+
+
+  <div class="container">
+      <div class="py-5 text-center">
+        <img src="static/logo.jpg" alt="" width="72" height="57">
+        <h2>Heart Diseases Detection</h2>
+        <p class="lead">Kindly Fill The Below Details</p>
+      </div>
+
+      <div>
+        <h4 class="mb-3">Patient Information</h4>
+        <form  action="/" method="post" >
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label class="form-label">Age</label>
+              <input type="number" name="Age" class="form-control">
+            </div>
+
+            <div class="col-sm-6">
+              <label  class="form-label">Sex</label>
+              <input type="text" name="Sex"class="form-control">
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Constrictive pericarditis</label>
+              <input type="number" name="CP" class="form-control" >
+            </div>
+
+
+            <div class="col-md-6">
+              <label class="form-label">Trestbps</label>
+              <input type="number" name="Trest" class="form-control">
+            </div>
+
+            <div class="col-md-5">
+              <label class="form-label">Cholesterol</label>
+              <input type="number" name="Chol" class="form-control">
+
+            </div>
+
+
+            <div class="col-md-3">
+              <label class="form-label">FBS</label>
+              <input type="number" name="Fbs" class="form-control">
+
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Restecg</label>
+              <input type="number" name="Rest" class="form-control" >
+
+            </div>
+
+            <div class="col-md-5">
+              <label class="form-label">Thalach</label>
+              <input type="number" name="Thalach" class="form-control" >
+
+            </div>
+
+            <div class="col-md-3">
+              <label class="form-label">Exang</label>
+              <input type="number" name="Exang" class="form-control" >
+
+            </div>
+
+            <div class="col-md-3">
+              <label  class="form-label">Oldpeak</label>
+              <input type="number" name="OP" class="form-control" >
+
+            </div>
+
+
+
+            <div class="col-md-5">
+              <label class="form-label">Slope</label>
+              <input type="number" name="Slope" class="form-control" >
+
+            </div>
+
+
+
+            <div class="col-md-3">
+              <label  class="form-label">Coronary Artery</label>
+              <input type="number" name="CA" class="form-control" >
+
+            </div>
+
+            <div class="col-md-3">
+              <label class="form-label">Thal</label>
+              <input type="number" name="Thal" class="form-control" >
+
+            </div>
+          </div>
+          </br>
+          <button class="w-100 btn btn-success btn-lg" type="submit">Detect</button>
+        </form>
+      </div>
+  </div>
+
+</body>
+
+</html>
